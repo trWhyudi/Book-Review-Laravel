@@ -12,13 +12,13 @@
         <div class="container-fluid shadow-lg header">
             <div class="container">
                 <div class="d-flex justify-content-between">
-                    <h1 class="text-center"><a href="{{ route('home') }}" class="h3 text-white text-decoration-none">Book Review App</a></h1>
+                    <h1 class="text-center"><a href="{{ route('home') }}" class="h3 text-white text-decoration-none">Booktopia Review</a></h1>
                     <div class="d-flex align-items-center navigation">
                         @if (Auth::check())
                         <a href="{{ route('account.profile') }}" class="text-white">My Account</a>
                         @else
-                        <a href="{{ route('account.login') }}" class="text-white">Login</a>
-                        <a href="{{ route('account.register') }}" class="text-white ps-2">Register</a>
+                        <a href="{{ route('account.login') }}" class=" btn btn-sm btn-light me-2">Login</a>
+                        <a href="{{ route('account.register') }}" class="btn btn-sm btn-light">Register</a>
                         @endif
                         
                     </div>

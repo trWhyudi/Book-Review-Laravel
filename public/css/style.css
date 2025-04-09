@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --blue: #1e90ff;
-    --white: #ffffff;
-    --btn-bg-primary: #3a92f7;
-    --btn-border-primary: #3a92f7;
+    --purple: #3B1E54;
+    --white: #fff;
+    --btn-bg-primary: #3B1E54;
+    --btn-border-primary: #3B1E54;
     --btn-font-family: "Montserrat", sans-serif;
     --body-font-family: "Lato", sans-serif;
     --btn-bg-dark: #000;
-    --star-raing-color: #3a92f7;
+    --star-raing-color: #3B1E54;
 }
 
 body{
